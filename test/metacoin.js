@@ -10,6 +10,7 @@ contract('MetaCoin', function(accounts) {
     var meta = MetaCoin.deployed();
     var metaCoinBalance;
     var metaCoinEthBalance;
+   // var metaCoinGweiBalance;
 
     return meta.getBalance.call(accounts[0]).then(function(outCoinBalance) {
       metaCoinBalance = outCoinBalance.toNumber();
