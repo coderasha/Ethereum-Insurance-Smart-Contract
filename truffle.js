@@ -1,3 +1,4 @@
+//Network Configuration
 module.exports = {
   build: {
     "index.html": "index.html",
